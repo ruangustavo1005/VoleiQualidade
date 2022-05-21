@@ -1,0 +1,7 @@
+model\Set.class
+main\App.class
+model\EquipeSet.class
+model\Equipe.class
+model\SetNormal.class
+model\Partida.class
+model\SetFinal.class

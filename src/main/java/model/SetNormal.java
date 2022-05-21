@@ -11,4 +11,9 @@ public class SetNormal extends Set {
         return 25;
     }
 
+    @Override
+    public int getDiferencaPontosNecessaria() {
+        return 2;
+    }
+
 }

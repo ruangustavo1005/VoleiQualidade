@@ -6,6 +6,8 @@ abstract public class Set {
     private EquipeSet equipe2;
 
     abstract public int getMaxPontos();
+    
+    abstract public int getDiferencaPontosNecessaria();
 
     public Set() {
 
@@ -27,7 +29,7 @@ abstract public class Set {
     }
 
     protected boolean isVencedor(int pontosEquipe, int pontosOutraEquipe) {
-        return pontosEquipe >= this.getMaxPontos() && pontosEquipe >= pontosOutraEquipe + 2;
+        return pontosEquipe >= this.getMaxPontos() && pontosEquipe >= pontosOutraEquipe + this.getDiferencaPontosNecessaria();
     }
 
     public EquipeSet getEquipe1() {
