@@ -24,7 +24,7 @@ public class App {
 
     private static Partida iniciaPartida() {
         System.out.println("+-----------------------------------------------------+");
-        System.out.println("| Bem vindo ao sistema gerenciador de Jogos de V√¥lei! |");
+        System.out.println("| Bem vindo ao sistema gerenciador de Jogos de VÙlei! |");
         System.out.println("+-----------------------------------------------------+\n");
 
         System.out.println("-> Digite o nome do primeiro time:");
@@ -35,7 +35,7 @@ public class App {
             System.out.println("-> Digite o nome do segundo time:");
             nomeEquipe2 = scanner.next();
             if (nomeEquipe2.equals(equipe1.getNome())) {
-                System.out.println("Valor inv√°ido! O nome do segundo time deve ser diferente do nome do primeiro.");
+                System.out.println("Valor inv·ido! O nome do segundo time deve ser diferente do nome do primeiro.");
             }
         }
         while (nomeEquipe2.equals(equipe1.getNome()));
@@ -52,12 +52,12 @@ public class App {
         do {
             System.out.println("Digite 1 para marcar ponto para a equipe \""
                     + partida.getSet(numeroSetAtual).getEquipe1().getEquipe().getNome()
-                    + "\" e 2 para marcar ponto para a equipe"
-                    + partida.getSet(numeroSetAtual).getEquipe1().getEquipe().getNome()
+                    + "\" e 2 para marcar ponto para a equipe \""
+                    + partida.getSet(numeroSetAtual).getEquipe2().getEquipe().getNome()
                     + "\":");
             equipePontuar = scanner.nextInt();
             if (equipePontuar != 1 && equipePontuar != 2) {
-                System.out.println("Valor inv√°lido! Informe apenas 1 ou 2.");
+                System.out.println("Valor inv·lido! Informe apenas 1 ou 2.");
             }
         }
         while (equipePontuar != 1 && equipePontuar != 2) ;

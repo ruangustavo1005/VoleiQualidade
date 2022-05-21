@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="model.SetTest" time="0.01" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="model.SetTest" time="0.009" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Ruan\AppData\Local\Temp\surefire3000534047809883756\surefirebooter8550578760769095017.jar C:\Users\Ruan\AppData\Local\Temp\surefire3000534047809883756 2022-05-21T09-37-53_408-jvmRun1 surefire1301172302182206744tmp surefire_04350811642031893156tmp"/>
+    <property name="sun.java.command" value="C:\Users\Ruan\AppData\Local\Temp\surefire2974616293238766034\surefirebooter3703085794576406547.jar C:\Users\Ruan\AppData\Local\Temp\surefire2974616293238766034 2022-05-21T14-11-59_959-jvmRun1 surefire2699400324860674174tmp surefire_07860552455848724876tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Ruan\Documents\NetBeansProjects\VoleiQualidade\target\test-classes;C:\Users\Ruan\Documents\NetBeansProjects\VoleiQualidade\target\classes;C:\Users\Ruan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Ruan\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Ruan\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Ruan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Ruan"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Ruan\AppData\Local\Temp\surefire3000534047809883756\surefirebooter8550578760769095017.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ruan\AppData\Local\Temp\surefire2974616293238766034\surefirebooter3703085794576406547.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,11 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="model.SetTest.testGetVencedor_ReturnEquipe1_WhenEquipe1Pontua25Equipe2Pontua20" classname="model.SetTest" time="0.001">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at model.SetTest.testGetVencedor_ReturnEquipe1_WhenEquipe1Pontua25Equipe2Pontua20(SetTest.java:27)
-</failure>
-  </testcase>
-  <testcase name="model.SetTest.testGetVencedor_ReturnNull_WhenEquipe1Pontua25Equipe2Pontua24" classname="model.SetTest" time="0.003"/>
-  <testcase name="model.SetTest.testGetVencedor_ReturnEquipe2_WhenEquipe1Pontua25Equipe2Pontua27" classname="model.SetTest" time="0.002"/>
+  <testcase name="model.SetTest.testGetVencedor_ReturnEquipe2_WhenEquipe1Pontua25Equipe2Pontua27" classname="model.SetTest" time="0.006"/>
+  <testcase name="model.SetTest.testGetVencedor_ReturnNull_WhenEquipe1Pontua25Equipe2Pontua24" classname="model.SetTest" time="0"/>
+  <testcase name="model.SetTest.testGetVencedor_ReturnEquipe1_WhenEquipe1Pontua25Equipe2Pontua20" classname="model.SetTest" time="0"/>
 </testsuite>

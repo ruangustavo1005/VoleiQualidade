@@ -17,8 +17,8 @@ public class Partida {
 
     public Equipe getVencedor() {
         if (this.getSet(3).getVencedor() == null) {
-            // Se o terceiro set ainda nÃ£o acabou, nÃ£o tem por que rodar a lÃ³gica
-            // "O jogo termina quando um time vence trÃªs sets"
+            // Se o terceiro set ainda não acabou, não tem por que rodar a lógica
+            // "O jogo termina quando um time vence três sets"
             return null;
         }
 
@@ -63,7 +63,7 @@ public class Partida {
         return setsVencidos;
     }
 
-    public int getIndexSetAtual () {
+    public int getIndexSetAtual() {
         for (int i = 1; i <= 4; i ++) {
             Set set = this.getSet(i);
             if (set.getVencedor() == null) {
