@@ -11,4 +11,9 @@ public class SetFinal extends Set {
         return 15;
     }
 
+    @Override
+    public int getDiferencaPontosNecessaria() {
+        return 2;
+    }
+
 }
