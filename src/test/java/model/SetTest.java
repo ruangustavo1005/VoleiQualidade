@@ -28,7 +28,7 @@ public class SetTest {
     }
     
     @Test
-    @DisplayName("Equipe 1 vence se atinge 25 pontos e a equipe 2 possue 20 pontos")
+    @DisplayName("Ninguém vence se a equipe 1 atinge 25 pontos e a equipe 2 possue 24 pontos")
     public void testGetVencedor_ReturnNull_WhenEquipe1Pontua25Equipe2Pontua24() {
         Equipe equipe1 = new Equipe("Equipe 1");
         Equipe equipe2 = new Equipe("Equipe 2");
@@ -39,7 +39,7 @@ public class SetTest {
     }
     
     @Test
-    @DisplayName("Equipe 1 vence se atinge 25 pontos e a equipe 2 possue 20 pontos")
+    @DisplayName("Equipe 2 vence se atinge 27 pontos e a equipe 1 possue 25 pontos")
     public void testGetVencedor_ReturnEquipe2_WhenEquipe1Pontua25Equipe2Pontua27() {
         Equipe equipe1 = new Equipe("Equipe 1");
         Equipe equipe2 = new Equipe("Equipe 2");
@@ -54,8 +54,14 @@ public class SetTest {
 
         @Override
         public int getMaxPontos() {
-            return (new SetNormal(null, null)).getMaxPontos();
+            return 25;
         }
+        
+        @Override
+        public int getDiferencaPontosNecessaria() {
+            return 2;
+        }
+
     }
     
 }
